@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <group>
+        <item
+            android:title="Gallery"
+            android:id="@+id/gallery"
+            android:icon="@drawable/gallery"/>
+        <item
+            android:title="Audio"
+            android:id="@+id/audio"
+            android:icon="@drawable/audio"/>
+        <item
+            android:title="Video"
+            android:id="@+id/video"
+            android:icon="@drawable/video"/>
+    </group>
+</menu>

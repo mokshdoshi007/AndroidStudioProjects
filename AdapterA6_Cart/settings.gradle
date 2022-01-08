@@ -1,0 +1,2 @@
+rootProject.name = "AdapterA6_Cart"
+include ':app'

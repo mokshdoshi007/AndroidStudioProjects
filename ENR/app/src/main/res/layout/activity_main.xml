@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/downloads"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/cid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Cart ID"
+        android:textColorHint="@color/black"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:onClick="viewcart"
+        android:backgroundTint="@color/black"
+        android:text="View Cart"/>
+
+</LinearLayout>

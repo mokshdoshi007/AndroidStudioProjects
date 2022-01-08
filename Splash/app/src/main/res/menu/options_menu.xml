@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/m1"
+        android:title="Profile"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_launcher_background"/>
+    <item android:id="@+id/m2"
+       android:title="Dashboard"/>
+    <item android:id="@+id/m3"
+        android:title="Records"/>
+    <item android:id="@+id/m4"
+    android:title="Change Password"/>
+    <item android:id="@+id/m5"
+        android:title="Logout"/>
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <group>
+        <item
+            android:title="Home"
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_launcher"/>
+        <item
+            android:title="Name"
+            android:id="@+id/name"
+            android:icon="@mipmap/ic_launcher"/>
+        <item
+            android:title="Email"
+            android:id="@+id/email"
+            android:icon="@mipmap/ic_launcher"/>
+        <item
+            android:title="Password"
+            android:id="@+id/password"
+            android:icon="@mipmap/ic_launcher"/>
+        <item
+            android:title="Gender"
+            android:id="@+id/gender"
+            android:icon="@mipmap/ic_launcher"/>
+    </group>
+    <item
+        android:title="@string/others">
+    <menu>
+        <item
+            android:id="@+id/google"
+            android:title="Google"
+            android:icon="@mipmap/ic_launcher"
+            tools:ignore="MenuTitle" />
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@mipmap/ic_launcher"
+            tools:ignore="MenuTitle" />
+    </menu>
+    </item>
+</menu>

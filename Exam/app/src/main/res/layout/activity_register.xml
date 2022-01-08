@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/purple_700"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:hint="Name"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:hint="Email"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:hint="Password"
+        android:layout_margin="10dp"/>
+    <RadioGroup
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@id/male">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender     "
+            android:textColor="@color/white"/>
+        <RadioButton
+            android:id="@+id/male"
+            android:text="Male"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="genderclick"/>
+        <RadioButton
+            android:id="@+id/female"
+            android:text="Female"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="genderclick"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:layout_margin="20dp"
+        android:onClick="registerclick"
+        android:text="Sign Up" />
+    <TextView
+        android:id="@+id/olduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:text="Old User?"
+        android:textColor="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <group>
+        <item
+            android:title="Home"
+            android:id="@+id/home_id"
+            android:icon="@drawable/house"/>
+        <item
+            android:title="Search"
+            android:id="@+id/search_id"
+            android:icon="@drawable/search"/>
+        <item
+            android:title="Records"
+            android:id="@+id/records_id"
+            android:icon="@drawable/verify"/>
+        <item
+            android:title="More"
+            android:id="@+id/more_id"
+            android:icon="@drawable/more"/>
+    </group>
+</menu>

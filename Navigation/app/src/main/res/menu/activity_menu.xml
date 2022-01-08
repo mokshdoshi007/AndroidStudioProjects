@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <group>
+        <item
+            android:title="Home"
+            android:id="@+id/home_id"
+            android:icon="@mipmap/ic_launcher"/>
+        <item
+            android:title="Setting"
+            android:id="@+id/setting_id"
+            android:icon="@mipmap/ic_launcher"/>
+        <item
+            android:title="About"
+            android:id="@+id/about_id"
+            android:icon="@mipmap/ic_launcher"/>
+        <item
+            android:title="Logout"
+            android:id="@+id/logout_id"
+            android:icon="@mipmap/ic_launcher"/>
+    </group>
+    <item
+        android:id="@+id/other"
+        android:title="Other">
+        <menu>
+
+            <item
+                android:title="Share"
+                android:id="@+id/share_id"
+                android:icon="@android:drawable/ic_menu_share" />
+            <item
+                android:title="Search"
+                android:id="@+id/search_id"
+                android:icon="@android:drawable/ic_menu_search"/>
+        </menu>
+    </item>
+
+</menu>
